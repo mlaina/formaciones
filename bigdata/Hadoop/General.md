@@ -1,4 +1,4 @@
-# **HDFS**
+## **HDFS**
 
 **Hadoop Distributed File System**
 
@@ -21,11 +21,17 @@ Tiene un **Namenode** y muchos **Datanodes**
 
 ### **Basics**
 
-`hdfs dfs - ls`
+`hdfs dfs -ls`
 
-`hdfs dfs - ls /user/`
+`hdfs dfs -ls /user/`
 
 `hdfs dfs -help`
+
+`hdfs dfs -usage <utility_name>`
+
+`hdfs namenode`
+
+`hdfs datanode`
 
 - `ls` -> muestra todos los ficheros y carpetas.
 - `touchz` -> crea un fichero en ese directorio.
@@ -127,3 +133,5 @@ STORE a INTO 'hbase://app_stock' USING org.apache.pig.backend.hadoop.hbase.HBase
 `nano hbase_pig.pig`
 
 `pig -f hbase_pigloader.pig`
+
+---
