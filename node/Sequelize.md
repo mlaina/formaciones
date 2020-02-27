@@ -107,7 +107,7 @@ User.update({name:'joe', password:'123'},
 ~~~
 
 ---
-## *Destroy*
+## **Destroy**
 
 ~~~
 User.destroy({where: {id:50}}).then(rows => {
