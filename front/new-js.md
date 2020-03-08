@@ -1,4 +1,4 @@
-# JS - ECMAScript6
+# **JS - ECMAScript6**
 
 Contenido:
   - [**Modules**](#modules)
