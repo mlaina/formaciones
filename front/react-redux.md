@@ -138,3 +138,6 @@ Create app foundation
 ---
 # Redux
 
+- **Lift State**, User data, lfted to common ancestor and passed down to children. Components need user data but 6 other components must pass it down on props. Problem Prop Drilling.
+- **React context**, UserContext. Provider (Holds user data and funcs). UserContext.Consumer. UserContext.Provider.
+- **Redux**: Store.
