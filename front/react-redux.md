@@ -1,5 +1,6 @@
 # **React - Redux**
 
+[Cory House](https://hackernoon.com/@housecor)
 
 **Redux** se encarga del control de estados (sesión?) del frontal, en este caso react.
 
@@ -18,7 +19,7 @@ Plugin para **Visual Studio Code** [**ES7 React/Redux/GraphQL/React-Native snipp
 
 
 ---
-## Propio entorno
+## Entorno
 
 Construcción de nuestro propio development environment:
 - Node
@@ -38,3 +39,105 @@ Pasos
 
 Creación de `webpack.config.js`.
  
+
+---
+## React components
+
+Dos discusiones:
+
+- **Class vs Function**
+
+- **Container vs Presentation**
+
+
+Cuatro caminos para crear componentes en react.
+
+- createClass
+~~~
+var HelloWorld = React.createClass({
+    render : function () {
+        return (
+            <h1>Hello World</h1>
+        );
+    }
+});
+~~~
+
+- ES class
+~~~
+class HelloWorld extends React.Component {
+    constructor(props) {
+        super(props);
+    }
+
+    render() {
+        return (
+            <h1>Hello World</h1>
+        );
+    }
+}
+~~~
+
+- Function
+
+~~~
+function HelloWorld(props) {
+    return (
+        <h1>Hello World</h1>
+    );
+}
+~~~
+
+- Arrow function
+~~~
+const HelloWorld = (props) => <h1>Hello World</h1>
+~~~
+
+
+Si necesita un estado en su componente, deberá crear un componente de clase o elevar el estado al componente principal y pasarlo al componente funcional mediante accesorios.
+
+Entonces, ¿por qué debería usar componentes funcionales?
+Puede preguntarse por qué debería usar componentes funcionales, si eliminan tantas características agradables. Pero hay algunos beneficios que obtienes al usar componentes funcionales en React:
+
+- Los componentes funcionales son mucho más fáciles de leer y probar porque son funciones simples de JavaScript sin estado o ganchos de ciclo de vida
+- Terminas con menos código
+- Te ayudan a usar las mejores prácticas . Será más fácil separar el contenedor y los componentes de presentación porque necesita pensar más sobre el estado de su componente si no tiene acceso a setState () en su componente
+- El equipo de React mencionó que puede haber un aumento de rendimiento para el componente funcional en futuras versiones de React
+
+
+
+Debe usar componentes funcionales si está escribiendo un componente de presentación que no tiene su propio estado o necesita acceder a un enlace de ciclo de vida. De lo contrario, puede pegarse a los componentes de clase o echar un vistazo a la biblioteca recomponer lo que le permite escribir componentes funcionales y mejorar con un estado o ciclo de vida de ganchos con hocs!
+
+
+
+Container:
+- Poco a ningún marcado
+- Pasar datos y acciones hacia abajo
+- Saber sobre redux
+- A menudo con estado
+  
+Presentation:
+- Casi todo el marcado
+- Recibir datos y acciones a través de accesorios
+- No hace falta saber sobre Redux
+- A menudo no hay estado
+
+
+
+"Cuando notas que algunos componentes no usan accesorios que reciben, sino que simplemente los envían hacia abajo ... es un buen momento para introducir algunos componentes del contenedor."
+
+---
+
+Create app foundation
+- Create first pages
+- Create layout
+- Setup navigation
+
+
+
+---
+# Redux
+
+- **Lift State**, User data, lfted to common ancestor and passed down to children. Components need user data but 6 other components must pass it down on props. Problem Prop Drilling.
+- **React context**, UserContext. Provider (Holds user data and funcs). UserContext.Consumer. UserContext.Provider.
+- **Redux**: Store.
