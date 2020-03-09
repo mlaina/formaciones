@@ -320,6 +320,7 @@ render(){
 Con el estilo **flex** le damos el tamaño que requiere la imagen.
 
 ---
+
 ## **Touch**
 
 
