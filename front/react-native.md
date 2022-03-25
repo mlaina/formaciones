@@ -97,13 +97,12 @@ Container que tiene n hijos.
 
 Estructura del proyecto:
 - App
-  - View 
+  - View
     - Home.js
     - ..
     - ..
 - App.js
 - package.json
-
 
 ~~~
   render() {
