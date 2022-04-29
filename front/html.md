@@ -20,6 +20,8 @@ Entre las organizaciones oficiales donde se puede ver una definición del están
 - **Sublime Text**: Sublime es uno de los mejores editores, ofrece muy buen soporte para garantizar que el programa se actualice constantemente. Los usuarios pueden agregar plugins creados por la comunidad o crear los suyos propios. Es de una empresa Australiana, es freemium.
 - **Visual Studio**: Esta herramienta multi-código gratuita de edición HTML viene lista para usarse con una gran variedad de funciones personalizables. Se destaca por su autocompletado y otras respuestas sintácticas inteligentes. Visual Studio Code es un programa de múltiples idiomas y plataformas. Su entorno de desarrollo trabaja mano a mano con HTML, Python y otros lenguajes de programación populares. Microsoft.
 
+https://jsfiddle.net/
+
 ## Inspeccionar Elemento
 
 Podemos ver directamente el árbol DOM de la página en la que estamos, podemos seleccionar cada elemento y obtener información muy útil de cada uno.
