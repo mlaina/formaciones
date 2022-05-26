@@ -46,10 +46,15 @@ Una vez creado el repositorio, haremos un `git clone` y prepararemos nuestro pro
 - Podéis usar el editor que queráis, os recomiendo:
 <https://code.visualstudio.com/>
 
+### API
+
+Es fundamental que uno de los miembros se especialice con la API. Para ello os recomiendo utilizar https://www.postman.com/ o similares para hacer pruebas contra la API, debéis mirar bien la documentación.
+En algunas APIs es necesario que os registréis para tener una APIKEY contra la que poder lanzar vuestras llamadas.
+
 ### Implementación
 
 Cualquier duda escribirme a Slack por privado y me meto allí donde estéis trabajando.
-La implementación biene fuertemente marcada por los requisitos, leerlos todos antes de comenzar.
+La implementación viene fuertemente marcada por los requisitos, leerlos todos antes de comenzar.
 
 ---
 
