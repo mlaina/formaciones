@@ -34,6 +34,7 @@ Se recomienda usar alguna herramienta de mockup de diseño para establecer cómo
 ### Repositorio
 
 Crearemos un repositorio público en github, en una organización, cuyo nombre viene definido por la api que habéis elegido.
+Tendremos que configurar bien el repositorio tal y como se indica en https://pages.github.com/
 
 ---
 
