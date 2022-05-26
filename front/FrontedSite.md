@@ -33,8 +33,23 @@ Se recomienda usar alguna herramienta de mockup de diseño para establecer cómo
 
 ### Repositorio
 
-Crearemos un repositorio público en github, en una organización, cuyo nombre viene definido por la api que habéis elegido.
-Tendremos que configurar bien el repositorio tal y como se indica en https://pages.github.com/
+Crearemos un repositorio público en github, en una organización, cuyo nombre viene definido por la api que habéis elegido. Tendremos que configurar bien el repositorio tal y como se indica en <https://pages.github.com/>
+
+### Entorno
+
+Una vez creado el repositorio, haremos un `git clone` y prepararemos nuestro proyecto y entorno:
+
+- Debemos tener Node instalado si queremos utilizar NPM pero no es obligatorio, se pueden utilizar cualquier servidor simples. Pero los archivos JS tienen que estar modulados.
+
+- Nuestro proyecto debe tener un index.html desde el que se importarán CSS y Javascript.
+
+- Podéis usar el editor que queráis, os recomiendo:
+<https://code.visualstudio.com/>
+
+### Implementación
+
+Cualquier duda escribirme a Slack por privado y me meto allí donde estéis trabajando.
+La implementación biene fuertemente marcada por los requisitos, leerlos todos antes de comenzar.
 
 ---
 
@@ -51,3 +66,5 @@ No se permite hacer uso de frameworks ni librerías, solo HTML, CSS, JS y un ser
 - **Segunda página:** Haremos una llamada a una de las **APIs** propuestas, de la que tendremos que obtener una lista de elementos, los cuales mostraremos, con un diseño accesible e interesante para el usuario.
 
 - **Tercera página:** Modificaremos con javascript los elementos del árbol del DOM, añadiendo distintos divs de distintos colores. Esta página es un **lienzo en blanco** en la que debéis sacar vuestra vena creativa, podéis poner botones que modifiquen la visualización de la página o jugar con la posición del puntero... ¡Lo que se os ocurra!
+
+Los JS tienen que estar en módulos. Bien divididos por funcionalidades o páginas.
